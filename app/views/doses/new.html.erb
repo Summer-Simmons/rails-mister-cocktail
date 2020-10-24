@@ -1,0 +1,10 @@
+<%= form_for(@dose) do |f| %>
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <%= f.label :description %>
+  <%= f.text_field :description %>
+  <%= f.label :cocktail_id %>
+  <%= f.number_field :cocktail_id %>
+  <%= f.label :ingredient_id %>
+  <%= f.number_field :ingredient_id %>
+  <%= f.submit %>
+<% end %>
