@@ -19,10 +19,6 @@ class CocktailsController < ApplicationController
     else
       render :new
     end
-    # @cocktail.save
-
-    # # no need for app/views/restaurants/create.html.erb
-    # redirect_to cocktail_path(@cocktail)
   end
 
   private
