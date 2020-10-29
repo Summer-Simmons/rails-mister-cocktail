@@ -51,5 +51,8 @@ gem 'rails-controller-testing', group: [ :test ]
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
 
-gem 'dotenv-rails', groups: [:development, :test]
 gem 'simple_form'
+
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.16.0'
+
